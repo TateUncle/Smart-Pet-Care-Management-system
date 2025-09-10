@@ -1,5 +1,3 @@
-
-
 class Service:
     def __init__(self, service_id, service_name, price):
         self.service_id = service_id
@@ -129,12 +127,12 @@ if __name__ == "__main__":
     dog1.display_services()
     cat1.display_services()
 
-    # Polymorphism demonstration
+    
     pets = [dog1, cat1]
     for pet in pets:
         print(f"{pet.name} is a {pet.pet_type()}")
 
-    # Calculate total service fees
+    
     print(f"Total service fees: N${my_company.calculate_total_service_fees()}")
 
 
