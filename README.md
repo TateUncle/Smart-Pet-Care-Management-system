@@ -1,4 +1,4 @@
-Got it 👍 Here’s a short 🐾 Pet Care Management System
+🐾 Pet Care Management System
 
 A simple **OOP project in Python** that models a pet care company.  
 
