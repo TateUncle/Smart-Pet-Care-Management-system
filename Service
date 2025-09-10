@@ -1,8 +1,1 @@
-class Service:
-    def __init__(self, service_id, service_name, price):
-        self.service_id = service_id
-        self.service_name = service_name
-        self.price = price
 
-    def get_service_details(self):
-        return f"{self.service_name} - N${self.price}"
