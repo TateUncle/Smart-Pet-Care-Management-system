@@ -1,24 +1,26 @@
 🐾 Pet Care Management System
 
-A simple **OOP project in Python** that models a pet care company.  
+Inheritance: Dog and Cat inherit from Pet.
+Composition: Owner owns Pet.
+Aggregation: PetCareCompany manages Service.
 
-It demonstrates:  
-- Inheritance→ Dog and Cat inherit from Pet  
-- Composition→ Owners own Pets  
-- Aggregation → Company manages Services  
-- Polymorphism→ pet_type() behaves differently for each Pet  
+Polymorphism:
+pet_type() overridden in subclasses.
+add_service() behaves differently with/without cost.
+__str__() prints customized messages.
 
-Features
-- Add owners, pets, and services  
-- Assign services to pets  
-- Display services per pet  
-- Calculate total service fees  
+Exception Handling
+Type checks for adding pets, owners, services.
+Handling missing services when assigning to pets.
 
- Example Output
+File I/O exceptions handled.
+File I/O
+Save to pet_data.json.
+Load from pet_data.json.
 
-Spotty added to Erik's pets. Kitty added to Erik's pets. Services for Spotty:
+Abstract Data Type
+Used List for owners, pets, and services.
 
-Grooming - N$45.0 Services for Kitty:
-
-Boarding - N$70.0 Spotty is a Dog Kitty is a Cat Total service fees: N$115.0
+Main Executable
+Demonstrates adding owners, pets, services, assigning services, calculating fees, and saving/loading data.
 
